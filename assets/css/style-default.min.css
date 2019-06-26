@@ -8,3 +8,20 @@
 	font-weight: 500;
 	opacity: 1;
 }
+.my-video-dimensions{
+	width: 99%;
+	height: 310px;
+}
+.video-js .vjs-big-play-button{
+	display: none !important;
+}
+@media (max-width: 480) {
+	h2.csi-title{
+		font-size: 20px !important;
+	}
+}
+@media (min-width: 768) {
+	h2.csi-title{
+		font-size: 56px !important;
+	}
+}
